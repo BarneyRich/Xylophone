@@ -13,6 +13,13 @@
 		7CB08AED279F50840031631D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB08AEB279F50840031631D /* Main.storyboard */; };
 		7CB08AEF279F50850031631D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB08AEE279F50850031631D /* Assets.xcassets */; };
 		7CB08AF2279F50850031631D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB08AF0279F50850031631D /* LaunchScreen.storyboard */; };
+		7CB08B03279F585E0031631D /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CB08AFC279F585E0031631D /* C.wav */; };
+		7CB08B04279F585E0031631D /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CB08AFD279F585E0031631D /* A.wav */; };
+		7CB08B05279F585E0031631D /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CB08AFE279F585E0031631D /* F.wav */; };
+		7CB08B06279F585E0031631D /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CB08AFF279F585E0031631D /* G.wav */; };
+		7CB08B07279F585E0031631D /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CB08B00279F585E0031631D /* D.wav */; };
+		7CB08B08279F585E0031631D /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CB08B01279F585E0031631D /* B.wav */; };
+		7CB08B09279F585E0031631D /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CB08B02279F585E0031631D /* E.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		7CB08AEE279F50850031631D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CB08AF1279F50850031631D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CB08AF3279F50850031631D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB08AFC279F585E0031631D /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = C.wav; path = "../../../../SWIFT/IOS DEVELOPER MATERIALS ANGELA/ios Projects challenges with Angela Yu/Basic Projects/Xylophone-iOS13/Xylophone/Sounds/C.wav"; sourceTree = "<group>"; };
+		7CB08AFD279F585E0031631D /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = A.wav; path = "../../../../SWIFT/IOS DEVELOPER MATERIALS ANGELA/ios Projects challenges with Angela Yu/Basic Projects/Xylophone-iOS13/Xylophone/Sounds/A.wav"; sourceTree = "<group>"; };
+		7CB08AFE279F585E0031631D /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = F.wav; path = "../../../../SWIFT/IOS DEVELOPER MATERIALS ANGELA/ios Projects challenges with Angela Yu/Basic Projects/Xylophone-iOS13/Xylophone/Sounds/F.wav"; sourceTree = "<group>"; };
+		7CB08AFF279F585E0031631D /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = G.wav; path = "../../../../SWIFT/IOS DEVELOPER MATERIALS ANGELA/ios Projects challenges with Angela Yu/Basic Projects/Xylophone-iOS13/Xylophone/Sounds/G.wav"; sourceTree = "<group>"; };
+		7CB08B00279F585E0031631D /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = D.wav; path = "../../../../SWIFT/IOS DEVELOPER MATERIALS ANGELA/ios Projects challenges with Angela Yu/Basic Projects/Xylophone-iOS13/Xylophone/Sounds/D.wav"; sourceTree = "<group>"; };
+		7CB08B01279F585E0031631D /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = B.wav; path = "../../../../SWIFT/IOS DEVELOPER MATERIALS ANGELA/ios Projects challenges with Angela Yu/Basic Projects/Xylophone-iOS13/Xylophone/Sounds/B.wav"; sourceTree = "<group>"; };
+		7CB08B02279F585E0031631D /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = E.wav; path = "../../../../SWIFT/IOS DEVELOPER MATERIALS ANGELA/ios Projects challenges with Angela Yu/Basic Projects/Xylophone-iOS13/Xylophone/Sounds/E.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +77,23 @@
 				7CB08AEE279F50850031631D /* Assets.xcassets */,
 				7CB08AF0279F50850031631D /* LaunchScreen.storyboard */,
 				7CB08AF3279F50850031631D /* Info.plist */,
+				7CB08AFB279F56CC0031631D /* Sounds */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		7CB08AFB279F56CC0031631D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7CB08AFD279F585E0031631D /* A.wav */,
+				7CB08B01279F585E0031631D /* B.wav */,
+				7CB08AFC279F585E0031631D /* C.wav */,
+				7CB08B00279F585E0031631D /* D.wav */,
+				7CB08B02279F585E0031631D /* E.wav */,
+				7CB08AFE279F585E0031631D /* F.wav */,
+				7CB08AFF279F585E0031631D /* G.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +154,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CB08B09279F585E0031631D /* E.wav in Resources */,
+				7CB08B03279F585E0031631D /* C.wav in Resources */,
 				7CB08AF2279F50850031631D /* LaunchScreen.storyboard in Resources */,
 				7CB08AEF279F50850031631D /* Assets.xcassets in Resources */,
+				7CB08B05279F585E0031631D /* F.wav in Resources */,
+				7CB08B06279F585E0031631D /* G.wav in Resources */,
+				7CB08B07279F585E0031631D /* D.wav in Resources */,
+				7CB08B08279F585E0031631D /* B.wav in Resources */,
+				7CB08B04279F585E0031631D /* A.wav in Resources */,
 				7CB08AED279F50840031631D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +331,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,6 +360,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
